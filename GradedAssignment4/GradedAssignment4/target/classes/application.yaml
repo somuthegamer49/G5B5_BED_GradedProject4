@@ -1,0 +1,10 @@
+spring:
+  datasource:
+    url: jdbc:h2:mem:gradedassignment4
+    username: sa
+    password: welcome
+  jpa:
+    hibernate:
+      ddl-auto: update
+server:
+  port: 8081
